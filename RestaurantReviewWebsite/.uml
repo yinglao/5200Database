@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1180.0" y="1359.0">com</node>
+    <node x="388.0" y="1359.0">netscape</node>
+    <node x="563.8125" y="677.0">Company</node>
+    <node x="104.19336419753097" y="400.0">User</node>
+    <node x="713.5625" y="1263.0">TakeOut</node>
+    <node x="468.20632716049386" y="0.0">Time</node>
+    <node x="242.56250000000003" y="655.0">Review</node>
+    <node x="0.0" y="1433.0">sun</node>
+    <node x="0.0" y="1359.0">groovyjarjarasm</node>
+    <node x="211.81250000000003" y="211.0">Reservation</node>
+    <node x="1328.0" y="1359.0">java</node>
+    <node x="1030.0" y="1359.0">javax</node>
+    <node x="65.07546296296294" y="44.0">SitDown</node>
+    <node x="876.0" y="1359.0">javafx</node>
+    <node x="167.0625" y="1263.0">FoodCard</node>
+    <node x="720.0" y="1359.0">oracle</node>
+    <node x="143.0" y="1433.0">org</node>
+    <node x="10.5" y="244.0">Recommendation</node>
+    <node x="390.8125" y="244.0">Card</node>
+    <node x="209.0" y="1359.0">META-INF</node>
+    <node x="285.0" y="1433.0">jdk</node>
+    <node x="170.06250000000003" y="854.0">Restaurant</node>
+    <node x="559.0" y="1359.0">groovy</node>
+    <node x="1184.5625" y="0.0">groovyjarjarcommonscli</node>
+    <node x="943.5625" y="0.0">groovyjarjarantlr</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="TakeOut" target="Restaurant">
+      <point x="-36.25" y="-25.5" />
+      <point x="749.8125" y="1238.0" />
+      <point x="414.5625" y="1238.0" />
+      <point x="81.5" y="179.5" />
+    </edge>
+    <edge source="User" target="Reservation">
+      <point x="0.0" y="-102.5" />
+      <point x="267.19336419753097" y="375.0" />
+      <point x="251.56250000000003" y="375.0" />
+      <point x="-39.75" y="69.5" />
+    </edge>
+    <edge source="Review" target="User">
+      <point x="-60.33333333333337" y="-69.5" />
+      <point x="272.72916666666663" y="630.0" />
+      <point x="185.69336419753097" y="630.0" />
+      <point x="-81.5" y="102.5" />
+    </edge>
+    <edge source="Review" target="Time">
+      <point x="60.333333333333314" y="-69.5" />
+      <point x="393.39583333333337" y="630.0" />
+      <point x="542.3125" y="630.0" />
+      <point x="542.3125" y="191.0" />
+      <point x="530.2063271604939" y="191.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="Reservation" target="Time">
+      <point x="53.0" y="-69.5" />
+      <point x="344.3125" y="181.0" />
+      <point x="480.60632716049383" y="181.0" />
+      <point x="-49.60000000000002" y="80.5" />
+    </edge>
+    <edge source="Review" target="Restaurant">
+      <point x="45.25" y="69.5" />
+      <point x="378.3125" y="834.0" />
+      <point x="353.4375" y="834.0" />
+      <point x="20.375" y="-179.5" />
+    </edge>
+    <edge source="Restaurant" target="Recommendation">
+      <point x="-101.875" y="-179.5" />
+      <point x="231.18750000000003" y="824.0" />
+      <point x="37.69336419753097" y="824.0" />
+      <point x="37.69336419753097" y="375.0" />
+      <point x="33.125" y="375.0" />
+      <point x="-67.875" y="36.5" />
+    </edge>
+    <edge source="User" target="Recommendation">
+      <point x="-130.39999999999998" y="-102.5" />
+      <point x="136.793364197531" y="375.0" />
+      <point x="123.625" y="375.0" />
+      <point x="22.625" y="36.5" />
+    </edge>
+    <edge source="Restaurant" target="Company">
+      <point x="101.875" y="-179.5" />
+      <point x="434.9375" y="824.0" />
+      <point x="625.8125" y="824.0" />
+      <point x="-62.0" y="47.5" />
+    </edge>
+    <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
+      <point x="52.0" y="14.5" />
+      <point x="1340.5625" y="59.0" />
+      <point x="1154.5625" y="59.0" />
+      <point x="1154.5625" y="7.25" />
+      <point x="-104.0" y="-7.25" />
+    </edge>
+    <edge source="SitDown" target="Restaurant">
+      <point x="-86.0" y="36.5" />
+      <point x="108.07546296296294" y="191.0" />
+      <point x="0.0" y="191.0" />
+      <point x="0.0" y="834.0" />
+      <point x="190.43750000000003" y="834.0" />
+      <point x="-142.625" y="-179.5" />
+    </edge>
+    <edge source="Recommendation" target="User">
+      <point x="67.875" y="36.5" />
+      <point x="168.875" y="375.0" />
+      <point x="201.993364197531" y="375.0" />
+      <point x="-65.19999999999996" y="-102.5" />
+    </edge>
+    <edge source="User" target="Card">
+      <point x="130.39999999999998" y="-102.5" />
+      <point x="397.59336419753095" y="375.0" />
+      <point x="461.3125" y="375.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Company" target="Restaurant">
+      <point x="62.0" y="47.5" />
+      <point x="749.8125" y="834.0" />
+      <point x="475.6875" y="834.0" />
+      <point x="142.625" y="-179.5" />
+    </edge>
+    <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
+      <point x="0.0" y="14.5" />
+      <point x="1026.5625" y="59.0" />
+      <point x="913.5625" y="59.0" />
+      <point x="913.5625" y="14.5" />
+      <point x="-83.0" y="-0.0" />
+    </edge>
+    <edge source="Reservation" target="SitDown">
+      <point x="-53.0" y="-69.5" />
+      <point x="238.31250000000003" y="191.0" />
+      <point x="194.07546296296294" y="191.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Restaurant" target="Time">
+      <point x="61.125" y="-179.5" />
+      <point x="394.1875" y="814.0" />
+      <point x="553.3125" y="814.0" />
+      <point x="553.3125" y="191.0" />
+      <point x="555.0063271604938" y="191.0" />
+      <point x="24.799999999999955" y="80.5" />
+    </edge>
+    <edge source="Recommendation" target="Restaurant">
+      <point x="-22.625" y="36.5" />
+      <point x="78.375" y="375.0" />
+      <point x="61.25" y="375.0" />
+      <point x="61.25" y="814.0" />
+      <point x="271.9375" y="814.0" />
+      <point x="-61.125" y="-179.5" />
+    </edge>
+    <edge source="FoodCard" target="Restaurant">
+      <point x="2.8421709430404007E-14" y="-25.5" />
+      <point x="-81.5" y="179.5" />
+    </edge>
+    <edge source="TakeOut" target="Time">
+      <point x="36.25" y="-25.5" />
+      <point x="822.3125" y="191.0" />
+      <point x="579.8063271604939" y="191.0" />
+      <point x="49.60000000000002" y="80.5" />
+    </edge>
+    <edge source="Restaurant" target="Review">
+      <point x="-20.375" y="-179.5" />
+      <point x="312.6875" y="834.0" />
+      <point x="287.8125" y="834.0" />
+      <point x="-45.25" y="69.5" />
+    </edge>
+    <edge source="Card" target="Time">
+      <point x="0.0" y="-36.5" />
+      <point x="461.3125" y="191.0" />
+      <point x="505.4063271604939" y="191.0" />
+      <point x="-24.80000000000001" y="80.5" />
+    </edge>
+    <edge source="Reservation" target="User">
+      <point x="39.75" y="69.5" />
+      <point x="331.0625" y="375.0" />
+      <point x="332.393364197531" y="375.0" />
+      <point x="65.20000000000005" y="-102.5" />
+    </edge>
+    <edge source="User" target="Review">
+      <point x="81.5" y="102.5" />
+      <point x="348.69336419753097" y="630.0" />
+      <point x="333.0625" y="630.0" />
+      <point x="0.0" y="-69.5" />
+    </edge>
+    <edge source="SitDown" target="Reservation">
+      <point x="86.0" y="36.5" />
+      <point x="280.07546296296294" y="191.0" />
+      <point x="291.3125" y="191.0" />
+      <point x="0.0" y="-69.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9127310061601642" x="492.5" y="536.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
